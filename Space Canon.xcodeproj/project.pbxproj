@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE67EDD719FE6A5100F4E141 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67EDD619FE6A5100F4E141 /* bg@2x.png */; };
+		EE67EDD919FE6BC800F4E141 /* bg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67EDD819FE6BC800F4E141 /* bg2@2x.png */; };
+		EE67EDDB19FE6C4F00F4E141 /* bg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE67EDDA19FE6C4F00F4E141 /* bg3@2x.png */; };
+		EE69E0C219FA411C0043199A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE69E0C119FA411C0043199A /* main.m */; };
+		EE69E0C519FA411C0043199A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE69E0C419FA411C0043199A /* AppDelegate.m */; };
+		EE69E0C819FA411C0043199A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EE69E0C719FA411C0043199A /* GameScene.m */; };
+		EE69E0CA19FA411C0043199A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0C919FA411C0043199A /* GameScene.sks */; };
+		EE69E0CD19FA411C0043199A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE69E0CC19FA411C0043199A /* GameViewController.m */; };
+		EE69E0D019FA411C0043199A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0CE19FA411C0043199A /* Main.storyboard */; };
+		EE69E0D219FA411C0043199A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0D119FA411C0043199A /* Images.xcassets */; };
+		EE69E0D519FA411C0043199A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0D319FA411C0043199A /* LaunchScreen.xib */; };
+		EE69E0E119FA411D0043199A /* Space_CanonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE69E0E019FA411D0043199A /* Space_CanonTests.m */; };
+		EE69E10319FA416C0043199A /* Ammo0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0EB19FA416C0043199A /* Ammo0@2x.png */; };
+		EE69E10419FA416C0043199A /* Ammo0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0EC19FA416C0043199A /* Ammo0@3x.png */; };
+		EE69E10519FA416C0043199A /* Ammo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0ED19FA416C0043199A /* Ammo1@2x.png */; };
+		EE69E10619FA416C0043199A /* Ammo1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0EE19FA416C0043199A /* Ammo1@3x.png */; };
+		EE69E10719FA416C0043199A /* Ammo2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0EF19FA416C0043199A /* Ammo2@2x.png */; };
+		EE69E10819FA416C0043199A /* Ammo2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F019FA416C0043199A /* Ammo2@3x.png */; };
+		EE69E10919FA416C0043199A /* Ammo3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F119FA416C0043199A /* Ammo3@2x.png */; };
+		EE69E10A19FA416C0043199A /* Ammo3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F219FA416C0043199A /* Ammo3@3x.png */; };
+		EE69E10B19FA416C0043199A /* Ammo4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F319FA416C0043199A /* Ammo4@2x.png */; };
+		EE69E10C19FA416C0043199A /* Ammo4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F419FA416C0043199A /* Ammo4@3x.png */; };
+		EE69E10D19FA416C0043199A /* Ammo5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F519FA416C0043199A /* Ammo5@2x.png */; };
+		EE69E10E19FA416C0043199A /* Ammo5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F619FA416C0043199A /* Ammo5@3x.png */; };
+		EE69E10F19FA416C0043199A /* Ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F719FA416C0043199A /* Ball@2x.png */; };
+		EE69E11019FA416C0043199A /* Ball@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F819FA416C0043199A /* Ball@3x.png */; };
+		EE69E11119FA416C0043199A /* Block@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0F919FA416C0043199A /* Block@2x.png */; };
+		EE69E11219FA416C0043199A /* Block@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0FA19FA416C0043199A /* Block@3x.png */; };
+		EE69E11319FA416C0043199A /* BlueBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0FB19FA416C0043199A /* BlueBar@2x.png */; };
+		EE69E11419FA416C0043199A /* BlueBar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0FC19FA416C0043199A /* BlueBar@3x.png */; };
+		EE69E11519FA416C0043199A /* Cannon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0FD19FA416C0043199A /* Cannon@2x.png */; };
+		EE69E11619FA416C0043199A /* Cannon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0FE19FA416C0043199A /* Cannon@3x.png */; };
+		EE69E11719FA416C0043199A /* Halo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E0FF19FA416C0043199A /* Halo@2x.png */; };
+		EE69E11819FA416C0043199A /* Halo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E10019FA416C0043199A /* Halo@3x.png */; };
+		EE69E11919FA416C0043199A /* Starfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E10119FA416C0043199A /* Starfield@2x.png */; };
+		EE69E11A19FA416C0043199A /* Starfield@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE69E10219FA416C0043199A /* Starfield@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE69E0DB19FA411D0043199A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE69E0B419FA411B0043199A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE69E0BB19FA411B0043199A;
+			remoteInfo = "Space Canon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE67EDD619FE6A5100F4E141 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		EE67EDD819FE6BC800F4E141 /* bg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg2@2x.png"; sourceTree = "<group>"; };
+		EE67EDDA19FE6C4F00F4E141 /* bg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg3@2x.png"; sourceTree = "<group>"; };
+		EE69E0BC19FA411B0043199A /* Space Canon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Canon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE69E0C019FA411C0043199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE69E0C119FA411C0043199A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE69E0C319FA411C0043199A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE69E0C419FA411C0043199A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE69E0C619FA411C0043199A /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		EE69E0C719FA411C0043199A /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		EE69E0C919FA411C0043199A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EE69E0CB19FA411C0043199A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		EE69E0CC19FA411C0043199A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		EE69E0CF19FA411C0043199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE69E0D119FA411C0043199A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE69E0D419FA411C0043199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE69E0DA19FA411D0043199A /* Space CanonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CanonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE69E0DF19FA411D0043199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE69E0E019FA411D0043199A /* Space_CanonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CanonTests.m; sourceTree = "<group>"; };
+		EE69E0EB19FA416C0043199A /* Ammo0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo0@2x.png"; sourceTree = "<group>"; };
+		EE69E0EC19FA416C0043199A /* Ammo0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo0@3x.png"; sourceTree = "<group>"; };
+		EE69E0ED19FA416C0043199A /* Ammo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo1@2x.png"; sourceTree = "<group>"; };
+		EE69E0EE19FA416C0043199A /* Ammo1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo1@3x.png"; sourceTree = "<group>"; };
+		EE69E0EF19FA416C0043199A /* Ammo2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo2@2x.png"; sourceTree = "<group>"; };
+		EE69E0F019FA416C0043199A /* Ammo2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo2@3x.png"; sourceTree = "<group>"; };
+		EE69E0F119FA416C0043199A /* Ammo3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo3@2x.png"; sourceTree = "<group>"; };
+		EE69E0F219FA416C0043199A /* Ammo3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo3@3x.png"; sourceTree = "<group>"; };
+		EE69E0F319FA416C0043199A /* Ammo4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo4@2x.png"; sourceTree = "<group>"; };
+		EE69E0F419FA416C0043199A /* Ammo4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo4@3x.png"; sourceTree = "<group>"; };
+		EE69E0F519FA416C0043199A /* Ammo5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo5@2x.png"; sourceTree = "<group>"; };
+		EE69E0F619FA416C0043199A /* Ammo5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo5@3x.png"; sourceTree = "<group>"; };
+		EE69E0F719FA416C0043199A /* Ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ball@2x.png"; sourceTree = "<group>"; };
+		EE69E0F819FA416C0043199A /* Ball@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ball@3x.png"; sourceTree = "<group>"; };
+		EE69E0F919FA416C0043199A /* Block@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Block@2x.png"; sourceTree = "<group>"; };
+		EE69E0FA19FA416C0043199A /* Block@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Block@3x.png"; sourceTree = "<group>"; };
+		EE69E0FB19FA416C0043199A /* BlueBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueBar@2x.png"; sourceTree = "<group>"; };
+		EE69E0FC19FA416C0043199A /* BlueBar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueBar@3x.png"; sourceTree = "<group>"; };
+		EE69E0FD19FA416C0043199A /* Cannon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cannon@2x.png"; sourceTree = "<group>"; };
+		EE69E0FE19FA416C0043199A /* Cannon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cannon@3x.png"; sourceTree = "<group>"; };
+		EE69E0FF19FA416C0043199A /* Halo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Halo@2x.png"; sourceTree = "<group>"; };
+		EE69E10019FA416C0043199A /* Halo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Halo@3x.png"; sourceTree = "<group>"; };
+		EE69E10119FA416C0043199A /* Starfield@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Starfield@2x.png"; sourceTree = "<group>"; };
+		EE69E10219FA416C0043199A /* Starfield@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Starfield@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE69E0B919FA411B0043199A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE69E0D719FA411D0043199A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE69E0B319FA411B0043199A = {
+			isa = PBXGroup;
+			children = (
+				EE69E0BE19FA411B0043199A /* Space Canon */,
+				EE69E0DD19FA411D0043199A /* Space CanonTests */,
+				EE69E0BD19FA411B0043199A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE69E0BD19FA411B0043199A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE69E0BC19FA411B0043199A /* Space Canon.app */,
+				EE69E0DA19FA411D0043199A /* Space CanonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE69E0BE19FA411B0043199A /* Space Canon */ = {
+			isa = PBXGroup;
+			children = (
+				EE69E0EA19FA41320043199A /* images */,
+				EE69E0C319FA411C0043199A /* AppDelegate.h */,
+				EE69E0C419FA411C0043199A /* AppDelegate.m */,
+				EE69E0C619FA411C0043199A /* GameScene.h */,
+				EE69E0C719FA411C0043199A /* GameScene.m */,
+				EE69E0C919FA411C0043199A /* GameScene.sks */,
+				EE69E0CB19FA411C0043199A /* GameViewController.h */,
+				EE69E0CC19FA411C0043199A /* GameViewController.m */,
+				EE69E0CE19FA411C0043199A /* Main.storyboard */,
+				EE69E0D119FA411C0043199A /* Images.xcassets */,
+				EE69E0D319FA411C0043199A /* LaunchScreen.xib */,
+				EE69E0BF19FA411C0043199A /* Supporting Files */,
+			);
+			path = "Space Canon";
+			sourceTree = "<group>";
+		};
+		EE69E0BF19FA411C0043199A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE69E0C019FA411C0043199A /* Info.plist */,
+				EE69E0C119FA411C0043199A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE69E0DD19FA411D0043199A /* Space CanonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE69E0E019FA411D0043199A /* Space_CanonTests.m */,
+				EE69E0DE19FA411D0043199A /* Supporting Files */,
+			);
+			path = "Space CanonTests";
+			sourceTree = "<group>";
+		};
+		EE69E0DE19FA411D0043199A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE69E0DF19FA411D0043199A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE69E0EA19FA41320043199A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EE69E0EB19FA416C0043199A /* Ammo0@2x.png */,
+				EE69E0EC19FA416C0043199A /* Ammo0@3x.png */,
+				EE69E0ED19FA416C0043199A /* Ammo1@2x.png */,
+				EE69E0EE19FA416C0043199A /* Ammo1@3x.png */,
+				EE69E0EF19FA416C0043199A /* Ammo2@2x.png */,
+				EE67EDD619FE6A5100F4E141 /* bg@2x.png */,
+				EE67EDD819FE6BC800F4E141 /* bg2@2x.png */,
+				EE67EDDA19FE6C4F00F4E141 /* bg3@2x.png */,
+				EE69E0F019FA416C0043199A /* Ammo2@3x.png */,
+				EE69E0F119FA416C0043199A /* Ammo3@2x.png */,
+				EE69E0F219FA416C0043199A /* Ammo3@3x.png */,
+				EE69E0F319FA416C0043199A /* Ammo4@2x.png */,
+				EE69E0F419FA416C0043199A /* Ammo4@3x.png */,
+				EE69E0F519FA416C0043199A /* Ammo5@2x.png */,
+				EE69E0F619FA416C0043199A /* Ammo5@3x.png */,
+				EE69E0F719FA416C0043199A /* Ball@2x.png */,
+				EE69E0F819FA416C0043199A /* Ball@3x.png */,
+				EE69E0F919FA416C0043199A /* Block@2x.png */,
+				EE69E0FA19FA416C0043199A /* Block@3x.png */,
+				EE69E0FB19FA416C0043199A /* BlueBar@2x.png */,
+				EE69E0FC19FA416C0043199A /* BlueBar@3x.png */,
+				EE69E0FD19FA416C0043199A /* Cannon@2x.png */,
+				EE69E0FE19FA416C0043199A /* Cannon@3x.png */,
+				EE69E0FF19FA416C0043199A /* Halo@2x.png */,
+				EE69E10019FA416C0043199A /* Halo@3x.png */,
+				EE69E10119FA416C0043199A /* Starfield@2x.png */,
+				EE69E10219FA416C0043199A /* Starfield@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE69E0BB19FA411B0043199A /* Space Canon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE69E0E419FA411D0043199A /* Build configuration list for PBXNativeTarget "Space Canon" */;
+			buildPhases = (
+				EE69E0B819FA411B0043199A /* Sources */,
+				EE69E0B919FA411B0043199A /* Frameworks */,
+				EE69E0BA19FA411B0043199A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Canon";
+			productName = "Space Canon";
+			productReference = EE69E0BC19FA411B0043199A /* Space Canon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE69E0D919FA411D0043199A /* Space CanonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE69E0E719FA411D0043199A /* Build configuration list for PBXNativeTarget "Space CanonTests" */;
+			buildPhases = (
+				EE69E0D619FA411D0043199A /* Sources */,
+				EE69E0D719FA411D0043199A /* Frameworks */,
+				EE69E0D819FA411D0043199A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE69E0DC19FA411D0043199A /* PBXTargetDependency */,
+			);
+			name = "Space CanonTests";
+			productName = "Space CanonTests";
+			productReference = EE69E0DA19FA411D0043199A /* Space CanonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE69E0B419FA411B0043199A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = NTES;
+				TargetAttributes = {
+					EE69E0BB19FA411B0043199A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EE69E0D919FA411D0043199A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EE69E0BB19FA411B0043199A;
+					};
+				};
+			};
+			buildConfigurationList = EE69E0B719FA411B0043199A /* Build configuration list for PBXProject "Space Canon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE69E0B319FA411B0043199A;
+			productRefGroup = EE69E0BD19FA411B0043199A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE69E0BB19FA411B0043199A /* Space Canon */,
+				EE69E0D919FA411D0043199A /* Space CanonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE69E0BA19FA411B0043199A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE69E11519FA416C0043199A /* Cannon@2x.png in Resources */,
+				EE69E11819FA416C0043199A /* Halo@3x.png in Resources */,
+				EE69E11119FA416C0043199A /* Block@2x.png in Resources */,
+				EE69E11219FA416C0043199A /* Block@3x.png in Resources */,
+				EE67EDD919FE6BC800F4E141 /* bg2@2x.png in Resources */,
+				EE69E0D519FA411C0043199A /* LaunchScreen.xib in Resources */,
+				EE69E10B19FA416C0043199A /* Ammo4@2x.png in Resources */,
+				EE69E10319FA416C0043199A /* Ammo0@2x.png in Resources */,
+				EE69E10519FA416C0043199A /* Ammo1@2x.png in Resources */,
+				EE69E11A19FA416C0043199A /* Starfield@3x.png in Resources */,
+				EE67EDDB19FE6C4F00F4E141 /* bg3@2x.png in Resources */,
+				EE69E11019FA416C0043199A /* Ball@3x.png in Resources */,
+				EE69E10419FA416C0043199A /* Ammo0@3x.png in Resources */,
+				EE69E0D219FA411C0043199A /* Images.xcassets in Resources */,
+				EE69E10C19FA416C0043199A /* Ammo4@3x.png in Resources */,
+				EE69E10919FA416C0043199A /* Ammo3@2x.png in Resources */,
+				EE69E10619FA416C0043199A /* Ammo1@3x.png in Resources */,
+				EE69E10F19FA416C0043199A /* Ball@2x.png in Resources */,
+				EE69E10E19FA416C0043199A /* Ammo5@3x.png in Resources */,
+				EE69E10819FA416C0043199A /* Ammo2@3x.png in Resources */,
+				EE69E11619FA416C0043199A /* Cannon@3x.png in Resources */,
+				EE69E11719FA416C0043199A /* Halo@2x.png in Resources */,
+				EE69E10D19FA416C0043199A /* Ammo5@2x.png in Resources */,
+				EE69E0CA19FA411C0043199A /* GameScene.sks in Resources */,
+				EE67EDD719FE6A5100F4E141 /* bg@2x.png in Resources */,
+				EE69E0D019FA411C0043199A /* Main.storyboard in Resources */,
+				EE69E11319FA416C0043199A /* BlueBar@2x.png in Resources */,
+				EE69E10719FA416C0043199A /* Ammo2@2x.png in Resources */,
+				EE69E11919FA416C0043199A /* Starfield@2x.png in Resources */,
+				EE69E10A19FA416C0043199A /* Ammo3@3x.png in Resources */,
+				EE69E11419FA416C0043199A /* BlueBar@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE69E0D819FA411D0043199A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE69E0B819FA411B0043199A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE69E0CD19FA411C0043199A /* GameViewController.m in Sources */,
+				EE69E0C519FA411C0043199A /* AppDelegate.m in Sources */,
+				EE69E0C819FA411C0043199A /* GameScene.m in Sources */,
+				EE69E0C219FA411C0043199A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE69E0D619FA411D0043199A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE69E0E119FA411D0043199A /* Space_CanonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE69E0DC19FA411D0043199A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE69E0BB19FA411B0043199A /* Space Canon */;
+			targetProxy = EE69E0DB19FA411D0043199A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE69E0CE19FA411C0043199A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE69E0CF19FA411C0043199A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE69E0D319FA411C0043199A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE69E0D419FA411C0043199A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE69E0E219FA411D0043199A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE69E0E319FA411D0043199A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE69E0E519FA411D0043199A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Canon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE69E0E619FA411D0043199A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Canon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE69E0E819FA411D0043199A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space CanonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Canon.app/Space Canon";
+			};
+			name = Debug;
+		};
+		EE69E0E919FA411D0043199A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space CanonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Canon.app/Space Canon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE69E0B719FA411B0043199A /* Build configuration list for PBXProject "Space Canon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE69E0E219FA411D0043199A /* Debug */,
+				EE69E0E319FA411D0043199A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE69E0E419FA411D0043199A /* Build configuration list for PBXNativeTarget "Space Canon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE69E0E519FA411D0043199A /* Debug */,
+				EE69E0E619FA411D0043199A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE69E0E719FA411D0043199A /* Build configuration list for PBXNativeTarget "Space CanonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE69E0E819FA411D0043199A /* Debug */,
+				EE69E0E919FA411D0043199A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE69E0B419FA411B0043199A /* Project object */;
+}
